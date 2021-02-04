@@ -1,6 +1,7 @@
 # 第一章 基础知识
 
 # 第二章 Java语言的开发环境搭建
+
 + **JVM**（Java VIrtual Machine）：Java**虚拟机**，Java程序的运行环境
 + **JRE**（Java Runtime Environment）：Java程序的**运行环境**，包含`JVM`和`核心类库`
 + **JDK**（Java Runtime Kit）：Java程序的**开发工具包**，包含`JRE`和开发工具
