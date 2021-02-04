@@ -1,21 +1,3 @@
-- [第一章 API](#----api)
-  * [概述](#--)
-  * [使用](#--)
-- [第二章 Scanner类](#----scanner-)
-  * [2.1 什么是Scanner类](#21----scanner-)
-  * [2.2 引用类型的使用](#22--------)
-  * [2.3 匿名对象](#23-----)
-    + [概念](#--)
-    + [应用](#--)
-- [第三章 Random类](#----random-)
-  * [3.1 Random类的使用](#31-random----)
-- [第四章 集合(ArrayList)](#-------arraylist-)
-  * [泛型](#--)
-  * [使用](#---1)
-    + [方法](#--)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 # 第一章 API
 
 ## 概述
