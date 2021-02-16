@@ -20,5 +20,6 @@ git commit -m "代码提交信息"
 
 ```
 git push origin master
-git push origin master -F //和本地冲突，则强制覆盖
+git push origin master -f //和本地冲突，则强制覆盖
 ```
+
