@@ -1,7 +1,7 @@
 package study.part2Object.demo05Extends;
 
 public class Teacher extends Employee {
-
+    String name = "te";
     // 自动继承了父类method
 
     @Override

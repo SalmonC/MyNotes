@@ -1,3 +1,12 @@
+# Git概述
+
++ 项目版本控制系统
++ 应用最广泛, 最适用于中小项目
+
+
+
+
+
 # 同步至GitHub Repository
 
 + 第一步：提出更改，添加到暂缓区
@@ -22,4 +31,6 @@ git commit -m "代码提交信息"
 git push origin master
 git push origin master -f //和本地冲突，则强制覆盖
 ```
+
+
 

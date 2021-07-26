@@ -2,7 +2,7 @@ package study.part2Object.demo05Extends;
 
 public class Employee {
 
-    String name;
+    String name = "emp";
     int age;
 
     public void method() {
