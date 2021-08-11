@@ -4200,8 +4200,7 @@ psvm{
   1. 文件夹中有内容, 不会删除, 返回false
   2. 不存在则返回false
   3. 直接在硬盘中删除, 不走回收站, 谨慎使用
-  4. 
-
+  
 + `public boolean mkdir()`:创建由此File表示的目录。
 
   给出的路径不存在, 或者已有文件夹, 返回false, 不报错
@@ -5683,6 +5682,8 @@ public static void main(String[] args){
 + shift + return: 换行(光标后内容忽略)
 + control + O: 重写方法
 + shift + F6: 批量修改变量名
++ alt + cmd + t : surrounded with
++ alt + 鼠标左键: 纵向选择
 
 # 附录2 报错
 

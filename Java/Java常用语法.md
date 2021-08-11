@@ -53,3 +53,10 @@
 
   例: `setA.retainAll(setB)` : 修改`setA`, 使其只保留`setB`中也出现的函数(交集)
 
+
+
+# Stream流
+
++ `list.stream().filter(...).findFirst().get()`: 查询第一个符合filter筛选器的元素并返回
++ `list.stream().filter(...).collect(Collectors.toList)`: 查询所有符合filter的元素, 作为`List`列表返回
++ `Map<String, List<Book>> collect = list.stream().collect(Collectors.groupingBy(Book::getType)); `通过groupBy返回值不同来分组, 返回值为Map

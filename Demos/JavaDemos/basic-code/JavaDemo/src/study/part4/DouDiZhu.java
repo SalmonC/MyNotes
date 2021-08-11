@@ -1,14 +1,11 @@
 package study.part4;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class DouDiZhu {
     public static void main(String[] args) {
-        List<String> colors = List.of("♠","♥","♣","♦");
-        List<Integer> numbers = List.of(1,2,3,4,5,6,7,8,9,0,11,12,13);
+        List<String> colors = new ArrayList<>(Arrays.asList("♠", "♥", "♣", "♦"));
+        List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,0,11,12,13);
         List<Integer> points = new ArrayList<>();
         for (int i = 0; i < 54; i++) {
             points.add(i);
@@ -19,10 +16,15 @@ public class DouDiZhu {
         List<Integer> list3 = new ArrayList<>();
         List<Integer> bottom = new ArrayList<>();
         for (int i = 0; i < 54; i++) {
-            if(0<=i && i<=16)list1.add(points.get(i));
-            else if(17<=i && i<=33)list2.add(points.get(i));
-            else if(34<=i && i<=50)list3.add(points.get(i));
-            else bottom.add(points.get(i));
+            if(0<=i && i<=16) {
+                list1.add(points.get(i));
+            } else if(17<=i && i<=33) {
+                list2.add(points.get(i));
+            } else if(34<=i && i<=50) {
+                list3.add(points.get(i));
+            } else {
+                bottom.add(points.get(i));
+            }
         }
         Player p1 = new Player(list1, "玩家1");
         Player p2 = new Player(list2, "玩家2");

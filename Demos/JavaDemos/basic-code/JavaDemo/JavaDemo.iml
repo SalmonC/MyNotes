@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../../../../Demos/JavaDemos/basic-code/out/production/JavaDemo" />
     <output-test url="file://$MODULE_DIR$/../../../../../Demos/JavaDemos/basic-code/out/test/JavaDemo" />
     <exclude-output />
@@ -10,7 +10,7 @@
     <orderEntry type="jdk" jdkName="15" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library name="JUnit4">
         <CLASSES>
           <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar!/" />
@@ -20,5 +20,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="junit-4.9" level="project" />
   </component>
 </module>
